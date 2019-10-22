@@ -1,21 +1,16 @@
-print "Сколько вам лет? "
-age = gets.to_i
-
-if age < 18
-  puts "Вам еще нет 18 лет!"
-  sleep 3
-  exit
-end
+print "Сколько Вам лет? "
+age = gets.strip.to_i
 
 print "Хотите играть? (Y/N) "
 answer = gets.strip.capitalize
 
-if answer == "Y"
+if age >= 18 && answer == "Y"
   puts "Хорошо, поиграем!"
 
   money = 100
+  bet = 5
 
-  while true do
+  while money >= bet do
 
     puts "Нажмите Enter, чтобы дернуть ручку"
     gets
@@ -71,12 +66,33 @@ if answer == "Y"
     if x == y && x == z && x == 0 # 000
       puts "Ваш баланс обнулен!"
       money = 0
-    elsif x == y && x == z # xxx
-      puts "Вам зачислено #{10 * x} долларов"
+
+    elsif x == y && x == z # x == y == z
+      puts "Вам зачислено #{10 * x}$"
       money = money + 10 * x
+
+    else
+      puts "У Вас списано #{bet}$"
+      money = money - bet
     end
 
-    puts "Осталось денег: #{money} долларов"
+    puts "Осталось денег: #{money}$"
 
+    if money < bet
+      puts "У Вас закончились деньги, Вы проиграли"
+    end
   end
+
+elsif age < 18
+  puts "Вам еще нет 18 лет!"
+
+elsif age >= 18 && answer == "N"
+  puts "Не хотите играть - не надо"
+
+else
+  puts "Ошибка, не могу понять Ваше желание"
 end
+
+puts "Программа закончена, все права защищены :)"
+sleep 1
+exit
