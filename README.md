@@ -1,6 +1,6 @@
 # Однорукий бандит
 
-Консольное приложение, созданное при прохождении курса по Ruby/Sinatra/Ruby on Rails от [Ruby School](http://rubyschool.us/).
+Консольное приложение, созданное при прохождении курса по Ruby/Sinatra/Ruby on Rails от [Ruby School](http://rubyschool.us/). Однорукий бандит — базовая имитация [слот-машины](https://ru.wikipedia.org/wiki/Слот-машина).
 
 ## Запуск
 
