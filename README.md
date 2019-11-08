@@ -5,7 +5,7 @@
 ## Запуск
 
 1. Клонируйте локально: `git clone git@github.com:aleksandrilyin/bandit.git`
-2. Перейдите в директорию: `cd ~/bandit`
+2. Перейдите в директорию: `cd ~/bandit/app`
 3. Запустите программу: `ruby bandit.rb`
 
 Для успешного запуска вам нужно установить Ruby.
