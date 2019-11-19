@@ -58,22 +58,13 @@ if age >= 18 && answer == 'Y'
       puts 'У вас закончились деньги. Вы проиграли'
     elsif money < bet
       puts 'Вам не хватает денег, чтобы сделать ставку. Вы проиграли'
-    elsif money >= 150
-      puts 'Хотите забрать деньги? (Y/N) '
-      win = gets.strip.capitalize
-
-      if win == 'Y'
-        puts 'Поздравляем! Вы выиграли!'
-        1.upto(money) do |w|
-          print '$'
-          sleep 0.03
-        end
-        break
-      elsif win == 'N'
-        puts 'Хорошо, продолжаем'
-      else
-        puts 'Ошибка, не могу понять ваше желание. Продолжаем'
+    elsif money >= 200
+      puts 'Поздравляем! Вы выиграли!'
+      1.upto(money) do |win|
+        print '$'
+        sleep 0.03
       end
+      break
     end
   end
 
