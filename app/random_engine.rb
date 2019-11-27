@@ -1,19 +1,19 @@
 class RandomEngine
-  attr_reader :n
+  attr_reader :num
 
   def initialize
-    @n = n
+    @num = num
   end
 
-  def self.get_random_value n
-    number = rand(0..9)
+  def self.get_random_value num
+    rand_num = rand(0..9)
     10.times do |i|
       if i < 9
-        print number
+        print rand_num
         print "\r"
         sleep 0.08
       else
-        print n
+        print num
       end
     end
   end
