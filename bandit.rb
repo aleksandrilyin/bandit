@@ -1,4 +1,4 @@
-require './random_engine'
+require_relative 'lib/random_engine'
 
 print 'Сколько вам лет? '
 age = gets.strip.to_i
