@@ -68,14 +68,11 @@ if age >= 18 && answer == 'Y'
     end
   end
 
-elsif age == '' || answer == ''
-  puts 'Ошибка, не могу понять ваше желание'
+elsif age >= 18 && answer == 'N'
+  puts 'Не хотите играть — не надо'
 
 elsif age < 18
   puts 'Вам еще нет 18 лет!'
-
-elsif age >= 18 && answer == 'N'
-  puts 'Не хотите играть — не надо'
 
 else
   puts 'Ошибка, не могу понять ваше желание'
