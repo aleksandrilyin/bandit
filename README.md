@@ -18,6 +18,6 @@
 
 1. Клонируйте локально: `git clone git@github.com:aleksandrilyin/one-armed-bandit.git`
 2. Перейдите в директорию: `cd ~/one-armed-bandit`
-3. Запустите программу: `ruby bandit.rb`
+3. Запустите программу: `ruby one_armed_bandit.rb`
 
-Для успешного запуска вам нужно установить Ruby.
+Для успешного запуска вам нужно установить Ruby 2.x.
