@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require_relative 'lib/random_engine'
 
 print 'Сколько вам лет? '
