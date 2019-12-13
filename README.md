@@ -1,6 +1,6 @@
 # One-armed bandit
 
-Однорукий бандит — базовая имитация [слот-машины](https://ru.wikipedia.org/wiki/Слот-машина). Консольное приложение, созданное при прохождении курса по Ruby/Sinatra/Ruby on Rails от [Ruby School](http://rubyschool.us/).
+Однорукий бандит — базовая имитация слот-машины. Консольное приложение, созданное при прохождении курса по Ruby/Sinatra/Ruby on Rails от [Ruby School](http://rubyschool.us/).
 
 ## Описание
 - Для лиц старше 18 лет
