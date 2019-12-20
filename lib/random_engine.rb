@@ -1,10 +1,4 @@
 class RandomEngine
-  attr_reader :num
-
-  def initialize
-    @num = num
-  end
-
   def self.get_random_value num
     rand_num = rand(0..9)
     10.times do |i|
