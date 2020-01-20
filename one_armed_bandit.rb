@@ -19,9 +19,9 @@ if age >= 18 && answer == 'Y'
     puts 'Нажмите Enter, чтобы дернуть ручку'
     gets
 
-    x = rand(0..9)
-    y = rand(0..9)
-    z = rand(0..9)
+    x = rand(10)
+    y = rand(10)
+    z = rand(10)
 
     puts 'Комбинация'
 
