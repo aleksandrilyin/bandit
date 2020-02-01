@@ -26,17 +26,17 @@ if age >= 18 && answer == 'Y'
     puts 'Комбинация'
 
     # Рандомное число x
-    RandomEngine.get_random_value x
+    RandomEngine.get_random_value(x)
 
     puts
 
     # Рандомное число y
-    RandomEngine.get_random_value y
+    RandomEngine.get_random_value(y)
 
     puts
 
     # Рандомное число z
-    RandomEngine.get_random_value z
+    RandomEngine.get_random_value(z)
 
     puts
 
